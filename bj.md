@@ -1,15 +1,40 @@
-# go基础知识
+# go语言基础知识
 
 # 学习资料
-- 相关参考文档  
+## 相关参考文档  
+- 李文周的blog  
 https://www.liwenzhou.com/archives/
 
-- 学习视频  
-https://www.bilibili.com/video/BV16E411H7og?p=14  
-尚硅谷韩顺平：  
+- go sdk中文的文档  
+https://studygolang.com/pkgdoc
+
+
+## 学习视频  
+- https://www.bilibili.com/video/BV16E411H7og?p=14  
+- 尚硅谷韩顺平：  
 https://www.bilibili.com/video/BV1kt411C7fK?from=search&seid=12793183262124070993  
 
+# 基础知识
 
+## 位运算
+### 二进制
+- 二进制计算都是以补码的方式进行计算  
+- 正数的 原码，反码，补码 都是本身
+- 负数的反码：符号位不变其他位取反，负数的补码：反码+1
+### & | ^ 实际的作用
+
+
+
+
+## printf
+```
+%d 数字类型  
+%02d 两位数字
+%s 字符串类型 
+%x 返回16进制的数据
+%T 返回数据类型
+%v 返回数据的value
+```
 
 # go mod
 ## 开启mod  
@@ -41,6 +66,8 @@ go get -u  #升级所有的
 - github  
 start 44K  
 https://github.com/gin-gonic/gin   
+周边建设  
+https://github.com/hhstore/blog/issues/132
 
 ## beego
 - github  

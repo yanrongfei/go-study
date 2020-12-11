@@ -3,19 +3,28 @@ package main
 import "fmt"
 
 func main() {
+	//test00()
 	//test01()
 	//test02()
 	//test03()
 	//test04()
 	//test05()
 	//test06()
-	test07()
+	//test07()
+	test08()
 
+}
+
+func test00(){
+	var name string
+	fmt.Println("请输入姓名：")
+	fmt.Scanln(&name)
+	fmt.Printf("输入的name：%s \n", name)
 }
 
 /**
 1.变量定义  数字、字母、下划线 必须以字母下划线开头
-
+2. %d 数字类型  %s 字符串类型
 
 */
 
@@ -174,5 +183,15 @@ func test07() {
 	user01.name = "ls"
 	user01.mobile = "123"
 	fmt.Println(user01)
+
+}
+
+func test08()  {
+	// <<  3 * 2²
+	var a = 3 << 2
+	fmt.Println(a)
+	// >> 300 / 2²
+	 b := 200 >> 2
+	fmt.Println(b)
 
 }
